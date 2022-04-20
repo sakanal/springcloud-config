@@ -1,2 +1,6 @@
 config:
-  info: "master branch,springcloud-config/config-dev.yml version=3"
+  info: "main branch,springcloud-config/config-dev.yml version=3"
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
